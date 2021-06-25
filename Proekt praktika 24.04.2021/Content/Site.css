@@ -1,0 +1,67 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    background-color:#fef9c7;
+}
+
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+input,
+select,
+textarea {
+    max-width: 280px;
+    background-color:#edeae5;
+}
+
+
+@media screen and (min-width: 768px) {
+    .jumbotron {
+        margin-top: 20px;
+    }
+
+    .body-content {
+        padding: 0;
+    }
+
+}
+.MainDiv {
+    min-height: 500px;
+    text-align: center;
+    background-color: #a8a8a8;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    height: 50px;
+}
+.TextBox {
+    background-color: #ff002b;
+}
+.random-table {
+    border-style: solid;
+    border-width: thin;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.cell-number, .cell-times, .cell-percent {
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    padding: 3px;
+    color: black;
+    background-color:white;
+}
+.top {
+    background-color: black;
+    color: white;
+}
+
